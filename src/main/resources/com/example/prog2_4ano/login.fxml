@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog2_4ano.loginController">
+   <children>
+      <Button fx:id="login" layoutX="313.0" layoutY="267.0" mnemonicParsing="false" onAction="#onLoginClick" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: #98FB98;" text="Login">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <TextField fx:id="username" layoutX="180.0" layoutY="121.0" prefHeight="32.0" prefWidth="239.0" promptText="username" style="-fx-border-color: #000000;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></TextField>
+      <PasswordField fx:id="password" layoutX="180.0" layoutY="184.0" prefHeight="32.0" prefWidth="239.0" promptText="password" style="-fx-border-color: #000000;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></PasswordField>
+      <Button fx:id="register" layoutX="198.0" layoutY="268.0" mnemonicParsing="false" onAction="#onRegisterClick" style="-fx-background-color: #FFF176;" text="Register">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Text layoutX="184.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DentalCare" wrappingWidth="232.993408203125">
+         <font>
+            <Font name="Colonna MT" size="50.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

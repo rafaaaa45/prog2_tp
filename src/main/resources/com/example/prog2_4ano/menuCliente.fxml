@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog2_4ano.MenuCliente">
+   <children>
+      <Text layoutX="238.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliente">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+         </font></Text>
+      <Button fx:id="marcarConsulta" layoutX="200.0" layoutY="142.0" mnemonicParsing="false" onAction="#onmarcarConsulta" prefHeight="32.0" prefWidth="200.0" style="-fx-background-color: #E6D4B9;" text="Marcar consulta">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="fazerPagamento" layoutX="200.0" layoutY="225.0" mnemonicParsing="false" onAction="#onfazerPagamento" prefHeight="32.0" prefWidth="200.0" style="-fx-background-color: #E6D4B9;" text="Fazer pagamento">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="logout" layoutX="489.0" layoutY="41.0" mnemonicParsing="false" onAction="#onlogout" style="-fx-background-color: #FF9999;" text="logout">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

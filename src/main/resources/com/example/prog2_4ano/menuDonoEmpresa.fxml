@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog2_4ano.MenuDonoEmpresa">
+   <children>
+      <Text layoutX="206.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dono de Empresa">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font></Text>
+      <Button fx:id="criarEmpresa" layoutX="185.0" layoutY="69.0" mnemonicParsing="false" onAction="#oncriarEmpresa" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Criar empresa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="listConsultasEmpresa" layoutX="185.0" layoutY="334.0" mnemonicParsing="false" onAction="#onlistConsultasEmpresa" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Consultas por empresa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="listEmpresas" layoutX="185.0" layoutY="113.0" mnemonicParsing="false" onAction="#onlistEmpresa" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Listar empresas">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="listConsultorios" layoutX="185.0" layoutY="200.0" mnemonicParsing="false" onAction="#onlistConsultorio" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Listar consultorios">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="listFuncionarios" layoutX="185.0" layoutY="289.0" mnemonicParsing="false" onAction="#onlistFuncionario" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Listar funcionarios">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="logout" layoutX="504.0" layoutY="26.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: #FF9999;" text="logout">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="criarConsultorio" layoutX="185.0" layoutY="156.0" mnemonicParsing="false" onAction="#oncriarConsultorio" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Criar consultorio">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="criarFuncionario" layoutX="185.0" layoutY="244.0" mnemonicParsing="false" onAction="#oncriarFuncionario" prefHeight="32.0" prefWidth="220.0" style="-fx-background-color: #E6D4B9;" text="Criar funcionario">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

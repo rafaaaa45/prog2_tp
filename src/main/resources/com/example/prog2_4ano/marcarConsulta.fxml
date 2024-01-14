@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog2_4ano.MarcarConsulta">
+   <children>
+      <TextField fx:id="hora" layoutX="53.0" layoutY="213.0" prefHeight="32.0" prefWidth="222.0" promptText="hora" style="-fx-border-color: #000000;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="data" layoutX="53.0" layoutY="120.0" prefHeight="32.0" prefWidth="222.0" promptText="data" style="-fx-border-color: #000000;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></TextField>
+      <ChoiceBox fx:id="tipoConsulta" layoutX="353.0" layoutY="75.0" prefHeight="32.0" prefWidth="222.0" style="-fx-background-color: #FFF176; -fx-border-color: #000000;" />
+      <ChoiceBox fx:id="funcionario" layoutX="353.0" layoutY="229.0" prefHeight="32.0" prefWidth="222.0" style="-fx-background-color: #FFF176; -fx-border-color: #000000;" />
+      <ChoiceBox fx:id="consultorio" layoutX="353.0" layoutY="152.0" prefHeight="32.0" prefWidth="222.0" style="-fx-background-color: #FFF176; -fx-border-color: #000000;" />
+      <Button fx:id="marcarConsulta" layoutX="409.0" layoutY="334.0" mnemonicParsing="false" onAction="#onmarcarConsulta" style="-fx-background-color: #98FB98;" text="Marcar Consulta">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="212.0" layoutY="32.0" text="Marcar Consulta">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="voltar" layoutX="19.0" layoutY="17.0" mnemonicParsing="false" onAction="#onVoltar" style="-fx-background-color: #F0F0F0; -fx-border-color: #CCCCCC;" text="Voltar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

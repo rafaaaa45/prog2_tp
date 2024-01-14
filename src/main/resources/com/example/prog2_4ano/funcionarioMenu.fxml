@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog2_4ano.FuncionarioMenu">
+   <children>
+      <Text layoutX="229.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Funcionário">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font></Text>
+      <Button fx:id="verConsultas" layoutX="225.0" layoutY="157.0" mnemonicParsing="false" onAction="#onverConsultas" style="-fx-background-color: #E6D4B9;" text="Ver consultas">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="logout" layoutX="492.0" layoutY="44.0" mnemonicParsing="false" onAction="#onlogout" style="-fx-background-color: #FF9999;" text="logout">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog2_4ano.ListConsultasEmpresa">
+   <children>
+      <ListView fx:id="consultas" layoutX="31.0" layoutY="90.0" prefHeight="206.0" prefWidth="538.0" />
+      <Button fx:id="voltar" layoutX="256.0" layoutY="325.0" mnemonicParsing="false" onAction="#onVoltar" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #F0F0F0; -fx-border-color: #CCCCCC;" text="Voltar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="138.0" layoutY="41.0" text="Lista de Consultas da Empresa">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
